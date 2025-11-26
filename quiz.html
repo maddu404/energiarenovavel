@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energia Renovável e Tecnologia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="Mídia\lightning-charge-fill.svg" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/quiz.css">
+</head>
+<body>
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-clean">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3 d-flex align-items-center gap-2" href="index.html">
+        <i style="color: #F0F0F0;" class="bi bi-lightning-charge-fill fs-2"></i>
+        Otimização Energética
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav fs-4 align-items-lg-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" role="button" data-bs-toggle="dropdown">
+              Desafios
+            </a>
+            <ul class="dropdown-menu fs-5">
+              <li><a class="dropdown-item" href="problemas-gerais.html">Globais</a></li>
+              <li><a class="dropdown-item" href="problemas-regionais.html">Regionais</a></li>
+            </ul>
+          </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" role="button" data-bs-toggle="dropdown">
+              Soluções
+            </a>
+            <ul class="dropdown-menu fs-5">
+               <li><a class="dropdown-item" href="solucoes-gerais.html">Técnicas</a></li>
+              <li><a class="dropdown-item" href="solucoes-regionais.html">Regionais</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impactos.html">Impactos</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="quiz.html">Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--Capa-->
+<section class="subcapa text-center text-white d-flex align-items-center" style="margin-top: 0rem; padding: 0;">
+  <div class="texto-capa">
+    <h1 class="display-4 fw-bold">Teste seus Conhecimentos</h1>
+  </div>
+</section>
+
+   <main class="container my-3 p-3 bg-white rounded">
+  <h2 class="fs-3">⭐ Quiz: </h2>
+
+  <!-- PERGUNTA 1 -->
+  <div class="quiz-card pergunta border border-success rounded bg-light">
+    <p>1. Qual é a principal característica que define a "energia limpa"?</p>
+
+    <input type="radio" id="p1a" name="p1" class="incorrect">
+    <label for="p1a">É totalmente isenta de impactos ambientais em qualquer etapa do seu ciclo de vida.</label>
+
+    <input type="radio" id="p1b" name="p1" class="correct">
+    <label for="p1b">Não emite poluentes na atmosfera durante a operação, mas pode ter impactos locais na instalação.</label>
+
+    <input type="radio" id="p1c" name="p1" class="incorrect">
+    <label for="p1c">É sinônimo de energia renovável, excluindo-se a energia nuclear por não ser renovável.</label>
+  </div>
+
+  <!-- PERGUNTA 2 -->
+  <div class="quiz-card pergunta border border-success rounded bg-light">
+    <p>2. Um dos principais desafios técnicos para a integração de fontes de energia renovável, como a solar e a eólica, é:</p>
+
+    <input type="radio" id="p2a" name="p2" class="correct">
+    <label for="p2a">A intermitência e a variabilidade, que exigem soluções para garantir o fornecimento contínuo.</label>
+
+    <input type="radio" id="p2b" name="p2" class="incorrect">
+    <label for="p2b">A necessidade de grandes áreas de terra, o que inviabiliza projetos em regiões costeiras.</label>
+
+    <input type="radio" id="p2c" name="p2" class="incorrect">
+    <label for="p2c">O custo extremamente elevado do combustível, que encarece a operação após a instalação.</label>
+  </div>
+
+  <!-- PERGUNTA 3 -->
+  <div class="quiz-card pergunta border border-success rounded bg-light">
+    <p>3. A Lei nº 15.269/2023 (Lei do Armazenamento de Energia) tem como um de seus objetivos principais:</p>
+
+    <input type="radio" id="p3a" name="p3" class="incorrect">
+    <label for="p3a">Substituir todas as usinas termelétricas por baterias até 2030.</label>
+
+    <input type="radio" id="p3b" name="p3" class="correct">
+    <label for="p3b"> Reduzir perdas e aumentar a eficiência por meio da integração inteligente com redes de distribuição.</label>
+
+    <input type="radio" id="p3c" name="p3" class="incorrect">
+    <label for="p3c">Proibir o uso de baterias de íons de lítio em favor de tecnologias mais baratas.</label>
+  </div>
+
+  <!-- PERGUNTA 4 -->
+  <div class="quiz-card pergunta border border-success rounded bg-light">
+    <p>4. Qual sistema digital é descrito como responsável por organizar "pequenas fontes" espalhadas, como placas solares em casas e baterias, para trabalharem juntas sem sobrecarregar a rede?</p>
+
+    <input type="radio" id="p4a" name="p4" class="incorrect">
+    <label for="p4a"> VPP</label>
+
+    <input type="radio" id="p4b" name="p4" class="incorrect">
+    <label for="p4b">SCADA</label>
+
+    <input type="radio" id="p4c" name="p4" class="correct">
+    <label for="p4c">DERMS</label>
+  </div>
+
+  <!-- PERGUNTA 5 -->
+  <div class="quiz-card pergunta border border-success rounded bg-light">
+    <p>5. De acordo com a análise de impactos no site, um dos aspectos NEGATIVOS associados à expansão das energias renováveis é:</p>
+
+    <input type="radio" id="p5a" name="p5" class="correct">
+    <label for="p5a">Pressão sobre as cadeias de suprimento de minerais como lítio e cobalto.</label>
+
+    <input type="radio" id="p5b" name="p5" class="incorrect">
+    <label for="p5b">Aumento significativo do custo operacional (OPEX) a longo prazo.</label>
+
+    <input type="radio" id="p5c" name="p5" class="incorrect">
+    <label for="p5c">Redução da necessidade de mão de obra qualificada no setor energético.</label>
+  </div>
+  <button class="btn btn-success w-100 mt-4" onclick="calcularPontuacao()">Ver minha pontuação</button>
+  <p id="resultadoQuiz" class="mt-3 fs-4 fw-bold"></p>
+</main>
+    <footer class="mt-4 p-3 bg-white border-top">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start g-3">
+
+      <!-- Tema -->
+      <div class="col-md-6">
+        <p class="small text-muted mb-1">
+          <strong>Tema do Trabalho:</strong><br>
+          De que forma softwares de otimização podem melhorar a eficiência na distribuição de energia renovável?
+        </p>
+        <p class="small text-muted mb-0">
+          <i class="bi bi-envelope-fill"></i> Contato: monteiro.augusto@ifsp.edu.br
+        </p>
+      </div>
+
+      <!-- Redes sociais -->
+      <div class="col-md-6 d-flex justify-content-center justify-content-md-end gap-3">
+
+        <a href="https://www.instagram.com" target="_blank" class="text-muted fs-3" title="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a href="https://www.x.com" target="_blank" class="text-muted fs-3" title="X (antigo twitter)">
+          <i class="bi bi-twitter"></i>
+        </a>
+
+
+        <a href="https://www.youtube.com"  target="_blank" class="text-muted fs-3" title="YouTube">
+          <i class="bi bi-youtube"></i>
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  // explicacoes de cd pergunta
+  const explicacoes = {
+    1: "O site define energia limpa como aquela que não lança poluentes na atmosfera, mas que pode causar impactos ambientais no local da instalação, mesmo que mínimos. A energia nuclear é citada como um exemplo de energia limpa, apesar de não ser renovável.",
+    2: "A destaque que a intermitência (sol e vento não constantes) e a variabilidade são desafios técnicos críticos, exigindo controle digital e soluções como armazenamento para garantir estabilidade.",
+    3: "A lei busca estabelecer regras para sistemas de armazenamento que permitam uma integração mais inteligente com a rede, reduzindo perdas e aumentando a eficiência do sistema.",
+    4: "o DERMS (ou LEBIMAS) é o sistema que gerencia pequenas fontes distribuídas, evitando sobrecarga na rede.",
+    5: "O site lista como impacto negativo a pressão sobre cadeias de suprimento de minerais críticos, além dos desafios de descarte de equipamentos como painéis e baterias."
+  };
+
+  let enviado = false;
+
+  function calcularPontuacao() {
+    
+    const botao = document.querySelector('button[onclick="calcularPontuacao()"]');
+    if (enviado) {
+      reiniciarQuiz(botao);
+      return;
+    }
+
+    const cards = document.querySelectorAll('.quiz-card.pergunta');
+    let total = cards.length;
+    let acertos = 0;
+    let naoRespondidas = 0;
+
+    cards.forEach((card, index) => {
+      const qNum = index + 1;
+      const selected = card.querySelector('input[type="radio"]:checked');
+      
+      card.classList.add('finalizado');
+
+      
+      card.querySelectorAll('label').forEach(l => {
+        l.classList.remove('label-correct', 'label-incorrect-selected');
+      });
+
+      
+      const inputs = card.querySelectorAll('input[type="radio"]');
+      inputs.forEach(inp => {
+        const lab = card.querySelector('label[for="' + inp.id + '"]');
+        if (!lab) return;
+        if (inp.classList.contains('correct')) {
+          lab.classList.add('label-correct');
+        }
+      });
+
+      if (!selected) {
+        naoRespondidas++;
+      } else {
+       
+        if (selected.classList.contains('correct')) {
+          acertos++;
+        } else {
+          
+          const labSel = card.querySelector('label[for="' + selected.id + '"]');
+          if (labSel) labSel.classList.add('label-incorrect-selected');
+        }
+      }
+
+     
+      if (!card.querySelector('.explicacao')) {
+        const p = document.createElement('p');
+        p.className = 'explicacao';
+        p.innerText = explicacoes[qNum] || '';
+        card.appendChild(p);
+      }
+    });
+
+    if (naoRespondidas > 0) {
+      alert('Responda todas as perguntas antes de enviar. Faltam ' + naoRespondidas + ' pergunta(s).');
+      
+      cards.forEach(card => {
+        card.classList.remove('finalizado');
+        card.querySelectorAll('label').forEach(l => {
+          l.classList.remove('label-correct', 'label-incorrect-selected');
+        });
+        const expl = card.querySelector('.explicacao');
+        if (expl) expl.remove();
+      });
+      return;
+    }
+
+ 
+    const resultado = document.getElementById('resultadoQuiz');
+    const percentual = Math.round((acertos / total) * 100);
+    let mensagem = `Você acertou ${acertos} de ${total} — ${percentual}%`;
+
+    if (percentual === 100) mensagem += " — Excelente!";
+    else if (percentual >= 80) mensagem += " — Muito bom!";
+    else if (percentual >= 50) mensagem += " — Pode melhorar.";
+    else mensagem += " — Estude os tópicos destacados nas explicações.";
+
+    resultado.innerHTML = mensagem;
+    resultado.classList.add('text-success');
+
+   
+    document.querySelectorAll('.quiz-card.pergunta input[type="radio"]').forEach(i => {
+      i.disabled = true;
+    });
+
+   
+    if (botao) {
+      botao.innerText = 'Refazer quiz';
+      botao.classList.remove('btn-success');
+      botao.classList.add('btn-outline-secondary');
+    }
+
+    enviado = true;
+  }
+
+  function reiniciarQuiz(botao) {
+   
+    document.querySelectorAll('.quiz-card.pergunta').forEach((card, index) => {
+      card.classList.remove('finalizado');
+      card.querySelectorAll('input[type="radio"]').forEach(i => {
+        i.checked = false;
+        i.disabled = false;
+      });
+      card.querySelectorAll('label').forEach(l => {
+        l.classList.remove('label-correct', 'label-incorrect-selected');
+      });
+      const expl = card.querySelector('.explicacao');
+      if (expl) expl.remove();
+    });
+
+    const resultado = document.getElementById('resultadoQuiz');
+    resultado.innerHTML = '';
+    resultado.classList.remove('text-success');
+
+    if (botao) {
+      botao.innerText = 'Ver minha pontuação';
+      botao.classList.remove('btn-outline-secondary');
+      botao.classList.add('btn-success');
+    }
+    enviado = false;
+  }
+
+ 
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      const active = document.activeElement;
+      if (active && active.tagName.toLowerCase() !== 'input') {
+        e.preventDefault();
+        const botao = document.querySelector('button[onclick="calcularPontuacao()"]');
+        if (botao) botao.click();
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
